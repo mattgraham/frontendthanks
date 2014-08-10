@@ -6,5 +6,4 @@ Years: 2012, 2013
 ---
 
 <article>
-
 </article>

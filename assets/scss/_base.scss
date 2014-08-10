@@ -1,11 +1,50 @@
-body {
-  -webkit-font-smoothing:antialiased;
-}
-
 * {
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
   background-repeat:no-repeat;
   position:relative;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400,900,700);
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+$normal: 400;
+$bold: 700;
+$xbold: 900;
+$base-color: #e74c3c;
+
+body {
+  -webkit-font-smoothing:antialiased;
+  background: $base-color;
+  font-family: "Alegreya";
+}
+
+article {
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+
+  .soon {
+    display: inline-block;
+    @include vertical-align;
+    color: #ecf0f1;
+    text-shadow: 0 2px 0 darken($base-color, 20%);
+    text-align: center;
+    font-weight: $bold;
+    font-size: 40px;
+  }
 }
