@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>{% if page.title %} {{ page.title }} | {% endif %}Frontend Thanks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% if page.customCSS %}
+	  <link rel="stylesheet" type="text/css" href="/assets/css/custom/{{ page.customCSS }}" />
+  {% endif %}
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src="//use.typekit.net/wpw2zdl.js"></script>
+</head>
+<body>
+
+<header>
+  <a class="title" href="/">Frontend Thanks</a>
+	{% include nav.html %}
+</header>
