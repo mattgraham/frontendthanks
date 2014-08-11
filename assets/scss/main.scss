@@ -1,9 +1,8 @@
 @import "compass/css3";
+@import "compass";
 @import "normalize";
+@import "mixins";
 @import "settings";
+@import "extensions";
 @import "base";
 @import "octicons";
-
-* {
-  box-sizing: border-box;
-}
