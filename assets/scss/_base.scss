@@ -6,45 +6,61 @@
   position:relative;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400,900,700);
-
-@mixin vertical-align {
-  position: relative;
-  top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-$normal: 400;
-$bold: 700;
-$xbold: 900;
-$base-color: #e74c3c;
-
 body {
-  -webkit-font-smoothing:antialiased;
-  background: $base-color;
-  font-family: "Alegreya";
+  font-family: $serif;
+  background: #ECF0F1;
+  color: #555;
+  padding: $base-font-size;
+  padding: 0;
+  margin: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  @include adjust-leading-to($leading);
+  padding-top: 55px;
+
+  font-size: 80%;
+  @include respond-to(500px){ font-size: 100%; }
+
+  h1{
+    font-family: $sans;
+    line-height: 1.1em;
+    margin-bottom: $base-margin*2;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    color: #333;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    z-index: 9909;
+
+    img {
+      min-width: 100%;
+    }
+  }
 }
 
-article {
-  display: inline-block;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
+.featured {
+  min-height: 500px;
+  background: url('https://s3.amazonaws.com/mixture-mixed/161/355/public/images/2014/community.jpg') center center;
+  background-size: cover;
+  color: #fff;
 
-  .soon {
-    display: inline-block;
-    @include vertical-align;
-    color: #ecf0f1;
-    text-shadow: 0 2px 0 darken($base-color, 20%);
-    text-align: center;
-    font-weight: $bold;
-    font-size: 40px;
+  .content {
+    padding-top: 5%;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  h1, p {
+    max-width: 640px;
+    margin: 0 auto;
   }
 }
