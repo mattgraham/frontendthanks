@@ -7,13 +7,15 @@ The site is a jekyll site and will live on github pages. I welcome contributions
 ### Development
 
 ```
-script/boostrap
+script/bootstrap
 ```
+
 Will setup the local enviornment. This assumes you have Ruby and homebrew installed.
 
 ```
 script/server
 ```
+
 Will get the localserver up and running AND watch the SCSS files with Compass. Please don't make modifications to the CSS directly, all edits should happen in the SCSS files and will compile from there. 
 
 As your adding features please use branches and submit pull requests back into master. This will keep us all on the same page and direction. Also, **do not** push to gh-pages as of yet. Remember all gh-pages branches are public and this will release it to the world. 
