@@ -1,15 +1,25 @@
 .photos {
+  *, *:before, *:after {
+    box-sizing:  border-box !important;
+  }
+
   overflow: hidden;
   width: 100%;
-  padding: 0;
+  margin-top: 10px;
+  padding: 10px;
+
+  -moz-column-width: 25em;
+  -webkit-column-width: 25em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
 
   li {
     list-style: none;
   }
 
   img {
-    float: left;
-    margin: 1%;
-    width: 23%;
+    display: inline-block;
+    margin:  0.25rem;
+    width:  100%;
   }
 }
