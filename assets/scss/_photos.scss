@@ -15,11 +15,37 @@
 
   li {
     list-style: none;
-  }
+    position: relative;
 
-  img {
-    display: inline-block;
-    margin:  0.25rem;
-    width:  100%;
+    .meta {
+      @include font-size(1.4);
+      font-family: $sans;
+      font-weight: bold;
+      color: #fff;
+      opacity: 0;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      z-index: 999;
+      padding: 20px;
+      width: 100%;
+      transition: opacity .1s ease-in;
+    }
+
+    img {
+      display: inline-block;
+      margin:  0.25rem;
+      width:  100%;
+      transition: all .2s ease-in;
+    }
+
+    &:hover {
+      img {
+        -webkit-filter: saturate(50%)
+      }
+      .meta {
+        opacity: 1;
+      }
+    }
   }
 }

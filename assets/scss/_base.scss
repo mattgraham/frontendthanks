@@ -26,6 +26,15 @@ body {
     color: #333;
   }
 
+  a {
+    color: $color-red;
+    transition: color .1s ease-in;
+
+    &:hover {
+      color: lighten($color-red, 15%);
+    }
+  }
+
   .footer {
     bottom: -10px;
     left: 0;
