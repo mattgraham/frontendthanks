@@ -6,3 +6,6 @@ exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Pr
 permalink: /:categories/:year/:title
 markdown_ext:   markdown,mkd,mkdn,md
 markdown: redcarpet
+
+collections:
+  - photos

@@ -1,0 +1,15 @@
+.photos {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+
+  img {
+    float: left;
+    margin: 1%;
+    width: 23%;
+  }
+}

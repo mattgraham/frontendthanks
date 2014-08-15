@@ -1,0 +1,12 @@
+---
+layout: home
+---
+
+<ul class="photos">
+  {% for photos in site.photos %}
+    <li>
+      {{ photos.photographer }} {{ photos.year }} (<a href="http://twitter.com/{{ post.twitter }}" target="_blank">@{{ photos.twitter }}</a>)
+      <img src="{{ photos.photo_url }}">
+    </li>
+  {% endfor %}
+</ul>

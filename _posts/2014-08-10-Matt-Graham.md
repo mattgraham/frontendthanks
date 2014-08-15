@@ -1,6 +1,6 @@
 ---
-layout: thanks
-title: Thank You Dan
+layout: home
+title: Do what makes you come alive.
 name: Matt Graham
 twitter: michigangraham
 years: 2013, 2012

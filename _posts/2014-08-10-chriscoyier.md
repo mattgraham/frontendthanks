@@ -1,9 +1,10 @@
 ---
-layout: thanks
+layout: home
 title: A butterfly flaps its wings in St. Petersburg
 name: Chris Coyier
 twitter: chriscoyier
 years: 2014 (PDX), 2013, 2011, 2009
+photo_url:
 ---
 
 A butterfly flaps its wings in St. Petersburg, fours years later a guy gets to quit his day job to pursue his own passions. Sometimes it's hard to pinpoint what events in your life lead you to where you are now, but in my case, one of them is very easy: Front End Design Conference.
