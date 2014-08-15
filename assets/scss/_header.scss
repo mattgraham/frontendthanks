@@ -1,6 +1,5 @@
 header {
-  background: rgba(#FFF, .97);
-  @include box-shadow(0px 2px 0px 0px rgba(0,0,0,0.05));
+  background: rgba(#B52126, .97);
   margin-bottom: 40px;
   text-align: center;
   padding: 10px 0;
@@ -17,7 +16,6 @@ header {
     width: 200px;
     margin-left: 10px;
     font-size: 0;
-    background: red;
     line-height: 50px;
   }
 
@@ -32,16 +30,15 @@ header {
       display: inline-block;
       margin-left: 20px;
       font-family: $sans;
-      font-weight: $bold;
       @include font-size(1.8);
 
       a {
-        color: $color-red;
+        color: #fff;
         @include link-transition;
         text-decoration: none;
 
         &:hover {
-          color: lighten($color-red, 15%);
+          color: lighten(#fff, 15%);
         }
       }
 

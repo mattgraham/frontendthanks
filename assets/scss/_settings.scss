@@ -1,7 +1,13 @@
-$sans: 'Source Sans Pro', sans-serif;
-$serif: 'PT Serif', serif;
-$bold: bold;
-$normal: normal;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+$sans: 'Open Sans', sans-serif;
+$serif: "Noto Serif",sans-serif;
+
+$light: 300;
+$normal: 400;
+$semi: 600;
+$bold: 600;
+
 $font-size: 10px;
 $line-height: 10px;
 $base-margin: 10px;

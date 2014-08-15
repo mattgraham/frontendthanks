@@ -8,19 +8,13 @@
 
 body {
   font-family: $serif;
-  background: #ECF0F1;
-  color: #555;
   padding: $base-font-size;
   padding: 0;
   margin: 0;
   -webkit-backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  @include adjust-leading-to($leading);
-  padding-top: 55px;
-
-  font-size: 80%;
-  @include respond-to(500px){ font-size: 100%; }
+  padding-top: 70px;
 
   h1{
     font-family: $sans;
@@ -33,34 +27,19 @@ body {
   }
 
   .footer {
-    position: fixed;
     bottom: -10px;
     left: 0;
     right: 0;
     z-index: 9909;
-
-    img {
-      min-width: 100%;
-    }
+    background: url('/assets/images/stage.svg');
+    background-size: cover;
+    min-height: 100px;
   }
-}
-
-.featured {
-  min-height: 500px;
-  background: url('https://s3.amazonaws.com/mixture-mixed/161/355/public/images/2014/community.jpg') center center;
-  background-size: cover;
-  color: #fff;
 
   .content {
-    padding-top: 5%;
-  }
-
-  h1 {
-    color: #fff;
-  }
-
-  h1, p {
-    max-width: 640px;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
     margin: 0 auto;
   }
 }

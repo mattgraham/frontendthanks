@@ -1,0 +1,17 @@
+.featured {
+  background: url('https://s3.amazonaws.com/mixture-mixed/161/355/public/images/2014/community.jpg') center center;
+  background-size: cover;
+  color: #fff;
+
+  .content {
+    padding: 5% 0;
+
+    h1 {
+      margin-bottom: 20px !important;
+    }
+
+    h1, p {
+      color: #fff;
+    }
+  }
+}
