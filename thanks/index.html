@@ -1,17 +1,28 @@
 ---
-layout: home
+layout: thanks
 ---
 
 <ul class="content">
-  {% for post in site.posts limit: 5 %}
+  {% for thanks in site.thanks limit: 5 %}
     <li>
       <span class="thanks">
-        <h1>{{ post.title }}</h1>
-        <span class="meta">Published {{ post.date | date: "%B %d, %Y" }} by {{ post.name }} (<a href="http://twitter.com/{{ post.twitter }}" target="_blank">@{{ post.twitter }}</a>)</span>
-        {{ post.content }}
-        
-        <span class="meta">Years at frontend: {{ post.years }}</span>
+        <h1>{{ thanks.title }}</h1>
+        <span class="meta">Published {{ thanks.date | date: "%B %d, %Y" }} by {{ thanks.name }} (<a href="http://twitter.com/{{ thanks.twitter }}" target="_blank">@{{ thanks.twitter }}</a>)</span>
+        <p>{{ thanks.content | markdownify }}</p>
+        <span class="meta">Years at frontend: {{ thanks.years }}</span>
       </span>
     </li>
   {% endfor %}
+
+  <ul class="postings">
+    {% for thanks in site.thanks %}
+        <li class="">
+          <a href="{{ thanks.url }}">
+            <span class="article-title">{{ thanks.title }}</span>
+            <span class="article-date">{{ thanks.date | date: "%-m/%-d/%Y" }}</span>
+          </a>
+        </li>
+    {% endfor %}
+  </ul>
+
 </ul>

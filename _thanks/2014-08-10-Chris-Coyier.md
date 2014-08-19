@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: thanks
 title: A butterfly flaps its wings in St. Petersburg
 name: Chris Coyier
 twitter: chriscoyier

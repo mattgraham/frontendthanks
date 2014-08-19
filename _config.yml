@@ -8,5 +8,7 @@ markdown_ext:   markdown,mkd,mkdn,md
 markdown: redcarpet
 
 collections:
-  - photos
-  - thanks
+  photos:
+    output: true
+  thanks:
+    output: true
