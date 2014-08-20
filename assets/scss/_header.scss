@@ -3,12 +3,12 @@ header {
   margin-bottom: 40px;
   text-align: center;
   padding: 10px 10px;
-  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
+  height: 70px;
 
   .logo {
     display: inline-block;
@@ -26,8 +26,9 @@ header {
     display: inline-block;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 200px 0 0;
     line-height: 50px;
+    position: static;
 
     li {
       display: inline-block;
@@ -53,23 +54,114 @@ header {
 
   .portland {
     text-decoration: none;
-    display: inline-block;
-    float: right;
+    position: absolute;
+    right: 0;
     width: 100%;
     max-width: 200px;
     margin-right: 10px;
-    line-height: 50px;
-    background: #fff;
-    border-radius: $border-radius;
-    font-family: $sans;
-    font-weight: $bold;
-    @include font-size(1.6);
-    transition: all .1s ease-in;
-    border: 1px solid #fff;
 
-    &:hover {
+    a {
+      display: block;
+      color: #b52126;
+      line-height: 50px;
+      background: #fff;
+      border-radius: $border-radius;
+      font-family: $sans;
+      font-weight: $bold;
+      @include font-size(1.6);
+      transition: all .1s ease-in;
+      border: 1px solid #fff;
+    }
+
+    &:hover a {
+      color: #b52126;
       background: rgba(#fff, .9);
       box-shadow: 0 1px 0 2px rgba(#000, .1);
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  header {
+
+    nav {
+      display: block;
+      top: 0;
+      left: 0;
+      padding: 0;
+      top: 70px;
+      width: 100%;
+      background: rgba(#B52126, .95);
+      position: absolute;
+      -webkit-transition: 300ms all ease-in-out;
+      -webkit-transform: translate3d(0, -150%, 0);
+
+      li {
+        display: block;
+        margin: 0;
+      }
+
+      a {
+        display: block;
+      }
+
+      .portland {
+        position: relative;
+        max-width: 100%;
+        right: auto;
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
+
+  input[type="checkbox"] {
+    display: none;
+
+    &:checked ~ nav { -webkit-transform: translate3d(0, 0, 0) }
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    height: 70px;
+
+    i {
+      height: 4px;
+      width: 35px;
+      background: #fff;
+      display: inline-block;
+      position: relative;
+      vertical-align: top;
+      top: 5px;
+      border-radius: 2px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background: #fff;
+        border-radius: 2px;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 18px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background: #fff;
+        border-radius: 2px;
+      }
     }
   }
 }
