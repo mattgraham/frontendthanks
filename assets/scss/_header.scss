@@ -1,5 +1,5 @@
 header {
-  background: rgba(#B52126, .97);
+  background: rgba(#B52126, .95);
   margin-bottom: 40px;
   text-align: center;
   padding: 10px 10px;
@@ -52,11 +52,24 @@ header {
   }
 
   .portland {
+    text-decoration: none;
     display: inline-block;
     float: right;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     margin-right: 10px;
     line-height: 50px;
-    background: red;
+    background: #fff;
+    border-radius: $border-radius;
+    font-family: $sans;
+    font-weight: $bold;
+    @include font-size(1.6);
+    transition: all .1s ease-in;
+    border: 1px solid #fff;
+
+    &:hover {
+      background: rgba(#fff, .9);
+      box-shadow: 0 1px 0 2px rgba(#000, .1);
+    }
   }
 }

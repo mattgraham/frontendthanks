@@ -2,6 +2,7 @@
   background: url('/assets/images/featured.jpg') center center;
   background-size: cover;
   color: #fff;
+  padding-top: 70px;
 
   .content {
     padding: 60px 20px;
@@ -18,6 +19,5 @@
     p {
       @include font-size(2.0);
     }
-
   }
 }

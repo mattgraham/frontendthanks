@@ -10,8 +10,13 @@
 
     .thanks {
       display: inline-block;
-      margin-top: 40px;
+      padding: 40px 0;
       border-top: 1px solid rgba(#000, .05);
+      width: 100%;
+
+      h1 {
+        margin-top: 0;
+      }
 
       img {
         max-width: 100%;
@@ -33,13 +38,10 @@
         height: 100%;
       }
     }
-  }
 
-  h1 {
-    @include font-size(6.8);
-    @include line-height(7.8);
-    letter-spacing: -0.04em;
-    font-weight: $light;
+    &:nth-child(2n) {
+      /* background: rgba(#000, .03);*/
+    }
   }
 
   .meta {
@@ -60,7 +62,7 @@
   }
 
   ul.postings {
-    margin-top: 20px;
+    padding-top: 20px;
     padding: 0;
     margin: 0;
   }
@@ -69,7 +71,7 @@
 pre {
   display: block;
   padding: 20px;
-  border-radius: 2px;
+  border-radius: $border-radius;
   background: rgba(#000, .03);
   border: 1px solid rgba(#000, .05);
   @include font-size(1.4);
@@ -80,7 +82,7 @@ code {
   background: rgba(#000, .03);
   border: 1px solid rgba(#000, .05);
   padding: 4px 6px;
-  border-radius: 2px;
+  border-radius: $border-radius;
   font-weight: $bold;
   @include font-size(1.4);
 }

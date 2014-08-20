@@ -4,7 +4,7 @@ layout: contribute
 
 # Add to the thanks
 
-The goal of this site is to thank Dan and Cherrie for the incredible work and countless hours they poured into front-end over the past number of years. Our hope is that many of you add to the thank you messages, photos, and pass the site around using **#frontendthanks** in your tweets, instagrams, etc.
+The goal of this site is to thank Dan and Cherrie for the incredible work and countless hours they poured into Front-End over the past number of years. Our hope is that many of you add to the thank you messages, photos, and pass the site around using **#frontendthanks** in your tweets, instagrams, etc.
 
 The site has been built in Jekyll and hosted via GitHub Pages, this makes it easy for you to quickly add to the site. *Note* This will create a pull-request that will be sent to us for approval. If you really don't want to use GitHub to make this happen, [create an issue](https://github.com/mattgraham/frontendthanks/issues/new) and I'll add the message/photo for you. Message me on twitter if you have questions [@michigangraham](http://twitter.com/michigangraham)
 

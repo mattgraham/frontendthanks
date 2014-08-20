@@ -12,7 +12,7 @@ layout: home
 
 
 <ul class="content">
-  {% for thanks in site.thanks limit: 40 %}
+  {% for thanks in site.thanks %}
     <li>
       <span class="thanks">
         {% if thanks.title %}
@@ -38,15 +38,4 @@ layout: home
       </span>
     </li>
   {% endfor %}
-
-  <ul class="postings">
-    {% for thanks in site.thanks %}
-        <li class="">
-          <a href="{{ thanks.url }}">
-            <span class="article-title">{{ thanks.title }}</span>
-            <span class="article-date">{{ thanks.date | date: "%-m/%-d/%Y" }}</span>
-          </a>
-        </li>
-    {% endfor %}
-  </ul>
 </ul>
