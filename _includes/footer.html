@@ -1,5 +1,29 @@
 {% include gauges.html %}
 
-<div class="footer"></div>
+  <script>
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var imagePath = "/assets/images/characters/";
+
+    function displayLogo() {
+      var filename = "character" + getRandomInt(0, 0).toString() + ".svg";
+
+      $(".random-character").attr({
+        "src": imagePath + filename,
+      });
+    }
+
+    $(document).ready(function() {
+      displayLogo();
+    });
+  </script>
+
+  <img class="random-character" src="" />
+
+  <div class="footer">
+  </div>
+
 </body>
 </html>

@@ -46,6 +46,16 @@ body {
     background: url('/assets/images/stage.svg');
     background-size: cover;
     min-height: 100px;
+    margin-top: 200px;
+  }
+
+  .random-character {
+    display: inline-block;
+    position: absolute;
+    z-index: 9999;
+    bottom: 30px;
+    left: calc(50% - 150px);
+    max-width: 300px;
   }
 
   .content {
