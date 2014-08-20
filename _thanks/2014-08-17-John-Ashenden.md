@@ -8,4 +8,6 @@ photo_url:
 
 ---
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/TwntfjS9GxA" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="http://www.youtube.com/embed/TwntfjS9GxA" frameborder="0" width="560" height="315"></iframe>
+</div>

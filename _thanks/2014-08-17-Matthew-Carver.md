@@ -1,6 +1,6 @@
 ---
 layout: thanks
-title: Something incredibly special
+title:
 name: Matthew Carver
 twitter:
 years:

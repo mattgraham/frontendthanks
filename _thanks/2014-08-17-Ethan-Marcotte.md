@@ -1,6 +1,6 @@
 ---
 layout: thanks
-title: Excited to see what Dan and Cherrie do next
+title:
 name: Ethan Marcotte
 twitter:
 years:

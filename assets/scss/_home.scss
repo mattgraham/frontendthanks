@@ -1,17 +1,23 @@
 .featured {
-  background: url('https://s3.amazonaws.com/mixture-mixed/161/355/public/images/2014/community.jpg') center center;
+  background: url('/assets/images/featured.jpg') center center;
   background-size: cover;
   color: #fff;
 
   .content {
-    padding: 20px;
-
-    h1 {
-      margin-bottom: 20px !important;
-    }
+    padding: 60px 20px;
 
     h1, p {
       color: #fff;
     }
+
+    h1 {
+      margin: 0;
+      margin-bottom: 20px !important;
+    }
+
+    p {
+      @include font-size(2.0);
+    }
+
   }
 }

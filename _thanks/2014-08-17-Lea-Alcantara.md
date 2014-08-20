@@ -1,6 +1,6 @@
 ---
 layout: thanks
-title: Class act from beginning to end
+title:
 name: Lea Alcantara
 twitter:
 years:

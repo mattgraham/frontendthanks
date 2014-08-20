@@ -1,6 +1,6 @@
 ---
 layout: thanks
-title: Do what makes you come alive.
+title: Fonts, shapes and colors in a community that cares.
 name: Matt Graham
 twitter: michigangraham
 years: 2013, 2012

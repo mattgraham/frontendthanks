@@ -1,6 +1,6 @@
 ---
 layout: thanks
-title: The talks, the attendees, the venue, oh my.
+title:
 name: Jenn Lukas
 twitter: JennLukas
 years:

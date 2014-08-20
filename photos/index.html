@@ -5,7 +5,11 @@ layout: home
 <ul class="photos">
   {% for photos in site.photos %}
     <li>
-      <span class="meta">Photo by {{ photos.photographer }}, {{ photos.year }} (<a href="http://twitter.com/{{ photos.twitter }}" target="_blank">@{{ photos.twitter }}</a>)</span>
+      <span class="meta">
+        {% if photos.photographer %}Photo by {{ photos.photographer }} {% endif %}
+        {% if photos.year %} {{ photos.year }} {% endif %}
+        {% if photos.twitter %}(<a href="http://twitter.com/{{ photos.twitter }}" target="_blank">@{{ photos.twitter }}</a>){% endif %}
+      </span>
       <img src="{{ photos.photo_url }}">
     </li>
   {% endfor %}

@@ -1,11 +1,13 @@
 ---
 layout: thanks
-title: Dan Denney, how do I love thee? Let me count the ways,
+title:
 name: Jason VanLue
 twitter: jasonvanlue
 years:
 photo_url:
 ---
+
+Dan Denney, how do I love thee? Let me count the ways:
 
 ## Dan Is Generous
 Seriously, Dan is one of the most genuine, kind, and generous people I've come to know. He always thinks of others first, and himself last.

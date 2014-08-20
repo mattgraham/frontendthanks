@@ -2,7 +2,7 @@ header {
   background: rgba(#B52126, .97);
   margin-bottom: 40px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -11,12 +11,15 @@ header {
   z-index: 100;
 
   .logo {
-    float: left;
     display: inline-block;
-    width: 200px;
-    margin-left: 10px;
-    font-size: 0;
-    line-height: 50px;
+    padding: 8px;
+    margin: 0;
+    float: left;
+
+    img {
+      float: left;
+      max-width: 160px;
+    }
   }
 
   nav {
