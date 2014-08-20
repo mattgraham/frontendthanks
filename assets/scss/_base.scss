@@ -46,7 +46,7 @@ body {
     background: url('/assets/images/stage.svg');
     background-size: cover;
     min-height: 100px;
-    margin-top: 200px;
+    margin-top: 240px;
   }
 
   .random-character {
@@ -65,5 +65,12 @@ body {
     padding: 0 20px;
     margin: 0 auto;
     padding-top: 70px;
+  }
+
+  .speakers {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    @include line-height(2.6);
   }
 }
