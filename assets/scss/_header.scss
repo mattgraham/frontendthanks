@@ -22,6 +22,11 @@ header {
     }
   }
 
+  input[type="checkbox"],
+  label {
+    display: none;
+  }
+
   nav {
     display: inline-block;
     list-style: none;
@@ -113,54 +118,54 @@ header {
         padding: 10px;
       }
     }
-  }
 
-  input[type="checkbox"] {
-    display: none;
+    input[type="checkbox"] {
+      display: none;
 
-    &:checked ~ nav { -webkit-transform: translate3d(0, 0, 0) }
-  }
+      &:checked ~ nav { -webkit-transform: translate3d(0, 0, 0) }
+    }
 
-  label {
-    display: block;
-    cursor: pointer;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
-    height: 70px;
+    label {
+      display: block;
+      cursor: pointer;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 20px;
+      height: 70px;
 
-    i {
-      height: 4px;
-      width: 35px;
-      background: #fff;
-      display: inline-block;
-      position: relative;
-      vertical-align: top;
-      top: 5px;
-      border-radius: 2px;
-
-      &:before {
-        content: "";
-        position: absolute;
-        top: 9px;
-        left: 0;
+      i {
         height: 4px;
-        width: 100%;
+        width: 35px;
         background: #fff;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        top: 5px;
         border-radius: 2px;
-      }
 
-      &:after {
-        content: "";
-        position: absolute;
-        top: 18px;
-        left: 0;
-        height: 4px;
-        width: 100%;
-        background: #fff;
-        border-radius: 2px;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 9px;
+          left: 0;
+          height: 4px;
+          width: 100%;
+          background: #fff;
+          border-radius: 2px;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 18px;
+          left: 0;
+          height: 4px;
+          width: 100%;
+          background: #fff;
+          border-radius: 2px;
+        }
       }
     }
   }
