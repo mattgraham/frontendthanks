@@ -3,13 +3,27 @@ layout: thanks
 ---
 
 <ul class="content">
-  {% for thanks in site.thanks limit: 5 %}
+  {% for thanks in site.thanks limit: 40 %}
     <li>
       <span class="thanks">
-        <h1>{{ thanks.title }}</h1>
-        <span class="meta">Published {{ thanks.date | date: "%B %d, %Y" }} by {{ thanks.name }} (<a href="http://twitter.com/{{ thanks.twitter }}" target="_blank">@{{ thanks.twitter }}</a>)</span>
+        {% if thanks.title %}
+          <h1>{{ thanks.title }}</h1>
+        {% endif %}
+
+        <span class="meta">Published {{ thanks.date | date: "%B %d, %Y" }} by {{ thanks.name }}
+
+        {% if thanks.twitter %}
+          (<a href="http://twitter.com/{{ thanks.twitter }}" target="_blank">@{{ thanks.twitter }}</a>)
+        {% endif %}
+
+        </span>
+
         <p>{{ thanks.content | markdownify }}</p>
-        <span class="meta">Years at frontend: {{ thanks.years }}</span>
+
+        {% if thanks.years %}
+          <span class="meta">Years at frontend: {{ thanks.years }}</span>
+        {% endif %}
+
       </span>
     </li>
   {% endfor %}

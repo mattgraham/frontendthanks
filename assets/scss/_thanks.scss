@@ -7,6 +7,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
+    .thanks {
+      display: inline-block;
+      margin-top: 40px;
+      border-top: 1px solid rgba(#000, .05);
+
+      img {
+        max-width: 100%;
+      }
+    }
   }
 
   h1 {
