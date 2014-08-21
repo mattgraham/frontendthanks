@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title> Moving the web forward! | Frontend Thanks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+</head>
+<body>
+  <header class="branding">
+    <a class="logo" href="/"><img src="/assets/images/frontend-thanks.svg"></a>
+    <input type="checkbox" id="toggle-nav"/>
+    <label for="toggle-nav"><i></i></label>
+  	<nav>
+  <li><a href="/">Thank Yous</a></li>
+  <li><a href="/photos">Photos</a></li>
+  <li><a href="/speakers">Speakers</a></li>
+  <li><a href="/contribute">How to Contribute</a></li>
+  <li class="portland"><a href="http://frontenddesignconference.com/" target="_blank">Get to Portland 2014!</a></li>
+</nav>
+
+  </header>
+
+
+  <p>Who would&#39;ve thought Hip-hop and the Web would be a great topic at Front End Design Conference? Turns out I was lucky that Dan did. In most cases he turned out be a bigger Hip-hop enthusiast than me. More than I think he knows, Dan has been a great role model to me on and offline. Dan gave me a chance to speak on something I was passionate about for the first time in front my peers and for that I&#39;ll forever be grateful.. Front End Design Conference on the whole has made me a better person in multiple aspects of my profession. I can&#39;t imagine where I&#39;d be today without it.</p>
+
+<p>I have no doubt that we&#39;re going to keep the spirit of the conference alive in one way or another (The Bahamas is still on the table haha).</p>
+
+<p>I wish Dan, Cherrie and the entire family all the best. To many more years of moving the web forward!</p>
+
+
+
+<div class="page-navigation">
+  <div class="left">
+  
+  </div>
+
+  <div class="right">
+  
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '53ee47e4e32bb44f52010589');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+  <script>
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var imagePath = "/assets/images/characters/";
+
+    function displayLogo() {
+      var filename = "character" + getRandomInt(0, 0).toString() + ".svg";
+
+      $(".random-character").attr({
+        "src": imagePath + filename,
+      });
+    }
+
+    $(document).ready(function() {
+      displayLogo();
+    });
+  </script>
+
+  <img class="random-character" src="" />
+
+  <div class="footer">
+  </div>
+
+</body>
+</html>
+

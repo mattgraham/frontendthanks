@@ -1,5 +1,5 @@
 destination:    ./_site
-safe:           true
+safe:           false
 lsi:            false
 include:        [".htaccess"]
 exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
