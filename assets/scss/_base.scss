@@ -73,4 +73,15 @@ body {
     column-count: 2;
     @include line-height(2.6);
   }
+
+  @media only screen
+    and (max-width : 800px) {
+
+    .speakers {
+      -webkit-column-count: 1; /* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;
+      @include line-height(2.6);
+    }
+  }
 }
