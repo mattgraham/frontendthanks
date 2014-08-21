@@ -22,5 +22,14 @@
       @include line-height(2.8);
       text-shadow: 0 1px 1px rgba(#000, .8);
     }
+
+    a {
+      color: lighten($color-red, 15%);
+
+      &:hover {
+        color: lighten($color-red, 25%);
+      }
+
+    }
   }
 }

@@ -32,6 +32,7 @@ body {
   a {
     color: $color-red;
     transition: color .1s ease-in;
+    text-decoration: none;
 
     &:hover {
       color: lighten($color-red, 15%);
