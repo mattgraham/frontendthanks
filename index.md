@@ -10,15 +10,14 @@ layout: home
   </div>
 </div>
 
-
 <ul class="content">
   {% for thanks in site.thanks %}
-    <li>
+    <li id="{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">
       <span class="thanks">
         {% if thanks.title %}
-          <h1>{{ thanks.title }}</h1>
+          <h1><a href="#{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">{{ thanks.title }}</a></h1>
         {% else %}
-          <h1>{{ thanks.name }}</h1>
+          <h1><a href="#{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">{{ thanks.name }}</a></h1>
         {% endif %}
 
         <span class="meta">Published {{ thanks.date | date: "%B %d, %Y" }} by {{ thanks.name }}
