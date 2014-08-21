@@ -3,7 +3,7 @@ layout: thanks
 title:
 name: Nick Walsh
 twitter: nickawalsh
-years: 2014
+years: 2013
 ---
 
 Not long after the fourth iteration of Front-End, I asked Dan what compelled him to start his own event. Sheepishly, he just smiled and said it was an amazing excuse to talk with industry folks in St. Pete — both talented attendees and devoted speakers. He worked to make the conference something he would love going to, and that was infectious.
