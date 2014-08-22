@@ -73,7 +73,10 @@ body {
       max-width: 100%;
     }
 
-    button.buy {
+    .button {
+      font-family: $sans;
+      text-align: center;
+      display: inline-block;
       width: 100%;
       background: $color-red;
       padding: 20px;
