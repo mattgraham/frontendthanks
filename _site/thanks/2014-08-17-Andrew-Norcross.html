@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <title>Frontend Thanks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+  <script type="text/javascript" src='http://stickyjs.com/jquery.sticky.js'></script>
+  <script type="text/javascript" src='/assets/js/jquery.smoothscroll.js'></script>
+  <script type="text/javascript" src='/assets/js/main.js'></script>
+</head>
+<body>
+  <header class="branding">
+    <a class="logo" href="/"><img src="/assets/images/frontend-thanks.svg"></a>
+    <input type="checkbox" id="toggle-nav"/>
+    <label for="toggle-nav"><i></i></label>
+  	<nav>
+  <li><a href="/">Thank Yous</a></li>
+  <li><a href="/photos">Photos</a></li>
+  <li><a href="/speakers">Speakers</a></li>
+  <li><a href="/contribute">How to Contribute</a></li>
+  <li class="button"><a href="http://frontenddesignconference.com/" target="_blank">Get the t-shirt!</a></li>
+</nav>
+
+  </header>
+
+
+  <p>I had attended the St. Petersburg conference a few times, and gotten to know Dan and Cherry personally. I&#39;m honored that I can call them my friends.</p>
+
+<p>This year, I was given the opportunity to speak at the final St. Petersburg conference. Having attended in the past, I knew the caliber of speakers that Dan gets each year, so it was humbling (to say the least) to be included with such company. The event has been top-notch every time, with the little perks (chocolate bacon, anyone?) that easily made it my favorite conference to attend each year.</p>
+
+
+
+<div class="page-navigation">
+  <div class="left">
+  
+  </div>
+
+  <div class="right">
+  
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '53ee47e4e32bb44f52010589');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+  <script>
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var imagePath = "/assets/images/characters/";
+
+    function displayLogo() {
+      var filename = "character" + getRandomInt(0, 0).toString() + ".svg";
+
+      $(".random-character").attr({
+        "src": imagePath + filename,
+      });
+    }
+
+    $(document).ready(function() {
+      displayLogo();
+    });
+  </script>
+
+  <img class="random-character" src="" />
+
+  <div class="footer">
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+  <title>Frontend Thanks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+  <script type="text/javascript" src='http://stickyjs.com/jquery.sticky.js'></script>
+  <script type="text/javascript" src='/assets/js/jquery.smoothscroll.js'></script>
+  <script type="text/javascript" src='/assets/js/main.js'></script>
+</head>
+<body>
+  <header class="branding">
+    <a class="logo" href="/"><img src="/assets/images/frontend-thanks.svg"></a>
+    <input type="checkbox" id="toggle-nav"/>
+    <label for="toggle-nav"><i></i></label>
+  	<nav>
+  <li><a href="/">Thank Yous</a></li>
+  <li><a href="/photos">Photos</a></li>
+  <li><a href="/speakers">Speakers</a></li>
+  <li><a href="/contribute">How to Contribute</a></li>
+  <li class="button"><a href="http://frontenddesignconference.com/" target="_blank">Get the t-shirt!</a></li>
+</nav>
+
+  </header>
+
+
+  <span class="content">
+    <h1>Speakography</h1>
+
+<p>Dan and Cherrie took finding the right speakers very seriously. We&#39;ve had some incredible minds speak to us at Front-End, a strong thank you to all of you as well.</p>
+
+<h3>2006 - 2014</h3>
+
+<div class="speakers">
+  <li>Fabio Sasso - 2009</li>
+  <li>Chris Coyier - 2009, 2011, 2013, 2014 (PDX)</li>
+  <li>Grant Friedman - 2009</li>
+  <li>Andrew Maier - 2009</li>
+  <li>Jonathan Longnecker - 2009</li>
+  <li>John Ashenden - 2009</li>
+  <li>Kevin Hale - 2009</li>
+  <li>Larissa Meek - 2010</li>
+  <li>Lea Alcantara - 2010</li>
+  <li>Niki Brown - 2010</li>
+  <li>Meagan Fisher - 2010</li>
+  <li>Jina Bolton - 2010</li>
+  <li>Sarah Parmenter - 2010, 2012</li>
+  <li>Adelle Charles - 2010</li>
+  <li>James May - 2011</li>
+  <li>Stephanie Fields - 2011</li>
+  <li>Ryan Singer - 2011</li>
+  <li>Doug Neiner - 2011, 2013</li>
+  <li>Ethan Marcotte - 2011</li>
+  <li>Brandon Jones - 2011</li>
+  <li>Allison House - 2011</li>
+  <li>Jason Vanlue - 2012, 2014 (PDX)</li>
+  <li>Darcey Clarke - 2012</li>
+  <li>Giovanni DiFeterici - 2012</li>
+  <li>Bermon Painter - 2012, 2014 (PDX)</li>
+  <li>Carl Smith - 2012, 2014 (St. Pete)</li>
+  <li>Dave Rupert - 2012, 2013</li>
+  <li>Nick Walsh - 2013</li>
+  <li>Drew Barontini - 2013, 2014 (St. Pete)</li>
+  <li>Matt Graham - 2013</li>
+  <li>Michael Parenteau - 2013</li>
+  <li>Jenn Lukas - 2013</li>
+  <li>Ben Callahan - 2013, 2014 (PDX)</li>
+  <li>Cameron Moll - 2013</li>
+  <li>Daniel Ryan - 2014 (St. Pete), 2014 (PDX)</li>
+  <li>Rachel Smith - 2014 (St. Pete), 2014 (PDX)</li>
+  <li>Matthew Carver - 2014 (St. Pete), 2014 (PDX)</li>
+  <li>Erica Walker - 2014 (St. Pete)</li>
+  <li>Amanda Cheung - 2014 (St. Pete)</li>
+  <li>Andi Graham - 2014 (St. Pete)</li>
+  <li>Robb Harr - 2014 (St. Pete)</li>
+  <li>Travis Miller - 2014 (St. Pete)</li>
+  <li>Andrew Norcross - 2014 (St. Pete)</li>
+  <li>Noah Stokes - 2014 (St. Pete)</li>
+  <li>Mina Markham - 2014 (St. Pete)</li>
+  <li>Jason Beaird - 2014 (St. Pete)</li>
+</div>
+
+  </span>
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '53ee47e4e32bb44f52010589');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+  <script>
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var imagePath = "/assets/images/characters/";
+
+    function displayLogo() {
+      var filename = "character" + getRandomInt(0, 0).toString() + ".svg";
+
+      $(".random-character").attr({
+        "src": imagePath + filename,
+      });
+    }
+
+    $(document).ready(function() {
+      displayLogo();
+    });
+  </script>
+
+  <img class="random-character" src="" />
+
+  <div class="footer">
+  </div>
+
+</body>
+</html>
+

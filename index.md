@@ -10,9 +10,11 @@ layout: home
   </div>
 </div>
 
+{% include search.html %}
+
 <ul class="content">
   {% for thanks in site.thanks %}
-    <li id="{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">
+    <li id="{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}" class="anchor">
       <span class="thanks">
         {% if thanks.title %}
           <h1><a href="#{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">{{ thanks.title }}</a></h1>

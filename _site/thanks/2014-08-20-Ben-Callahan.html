@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <title> PBR and Karaoke | Frontend Thanks</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+  <script type="text/javascript" src='http://stickyjs.com/jquery.sticky.js'></script>
+  <script type="text/javascript" src='/assets/js/jquery.smoothscroll.js'></script>
+  <script type="text/javascript" src='/assets/js/main.js'></script>
+</head>
+<body>
+  <header class="branding">
+    <a class="logo" href="/"><img src="/assets/images/frontend-thanks.svg"></a>
+    <input type="checkbox" id="toggle-nav"/>
+    <label for="toggle-nav"><i></i></label>
+  	<nav>
+  <li><a href="/">Thank Yous</a></li>
+  <li><a href="/photos">Photos</a></li>
+  <li><a href="/speakers">Speakers</a></li>
+  <li><a href="/contribute">How to Contribute</a></li>
+  <li class="button"><a href="http://frontenddesignconference.com/" target="_blank">Get the t-shirt!</a></li>
+</nav>
+
+  </header>
+
+
+  <p>I (not so) vividly remember trying to buy a round of drinks for Dan at one of the Front-End Conf after-parties. If you&rsquo;ve every tried to buy Dan a drink, you know how difficult it can be. He&rsquo;s the kind of guy that wants to <em>buy</em> the drink, not have one bought for him. Somehow, I managed to sneak one in&#8212;a PBR in a can&#8212;and was then carted to the karaoke stage along with Dan and a few other attendees where we promptly sang Bon Jovi&rsquo;s &ldquo;Livin&rsquo; on a Prayer.&rdquo; Just one of many great memories I have from Front-End Design Conference. Good times. </p>
+
+<p>I&rsquo;ve only known Dan for a couple years, but I knew after first speaking with him that he was a kindred spirit. He demonstrates the kinds of qualities I&rsquo;m really drawn to in this biz: humility, skill, and empathy for his team. Nowhere has this been more evident than in he and Cherrie&rsquo;s organizing of the Front-End Design Conference. They&rsquo;ve done a fantastic job of curating incredibly relevant content but also facilitating great interactions.</p>
+
+<p>Dan, Cherrie, and their family have given a lot over the years. They&rsquo;ve provided an amzaing place to exchange ideas. They&rsquo;ve brought us together. I&rsquo;m grateful for it and truly believe our industry is better because of them. Thanks Dan and Cherrie. You guys rock.</p>
+
+
+
+<div class="page-navigation">
+  <div class="left">
+  
+  </div>
+
+  <div class="right">
+  
+  </div>
+
+</div>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '53ee47e4e32bb44f52010589');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+  <script>
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var imagePath = "/assets/images/characters/";
+
+    function displayLogo() {
+      var filename = "character" + getRandomInt(0, 0).toString() + ".svg";
+
+      $(".random-character").attr({
+        "src": imagePath + filename,
+      });
+    }
+
+    $(document).ready(function() {
+      displayLogo();
+    });
+  </script>
+
+  <img class="random-character" src="" />
+
+  <div class="footer">
+  </div>
+
+</body>
+</html>
+

@@ -3,6 +3,32 @@
   margin: 0;
   padding: 0;
 
+  .anchor:before {
+    content: '';
+    display: block;
+    padding-top: 180px;
+    margin-top: -180px;
+
+    @media (max-width: 900px) {
+      padding-top: 110px;
+      margin-top: -110px;
+    }
+  }
+
+  li:first-child {
+    padding-top: 180px;
+    margin-top: -140px;
+
+    @media (max-width: 900px) {
+      padding-top: 110px;
+      margin-top: -70px;
+    }
+
+    .thanks {
+      border-top: none;
+    }
+  }
+
   li {
     list-style: none;
     margin: 0;
