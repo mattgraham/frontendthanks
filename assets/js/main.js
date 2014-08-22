@@ -9,15 +9,9 @@ $(function() {
 	// Create the dropdown base
 	$("<select /><span class='dropdown-arrow'/>").appendTo(".search");
 
-	// Create default option "Go to..."
-	$("<option />", {
-	   "selected": "selected",
-	   "value"   : "",
-	   "text"    : "Go to..."
-	}).appendTo("nav select");
-
 	// Populate dropdown with menu items
 	$("<option />", {
+		"value"   : "0",
 		"text"    : "Choose a thank you..."
 	}).appendTo(".search select");
 
@@ -30,6 +24,7 @@ $(function() {
 	});
 
 	$(".search select").change(function() {
-	  window.location = $(this).find("option:selected").val();
+		if ( $(this).find("option:selected").val() != "0" )
+	  	window.location = $(this).find("option:selected").val();
 	});
 });
