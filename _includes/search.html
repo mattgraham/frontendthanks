@@ -1,5 +1,5 @@
 <div class="search">
-  <ul>
+	<ul>
   {% for thanks in site.thanks %}
     <li><a href="#{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}">{{ thanks.name }}</a></li>
   {% endfor %}
