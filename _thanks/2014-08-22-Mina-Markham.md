@@ -1,9 +1,9 @@
+---
 layout: thanks
 title: There's No Place Like Home
 name: Mina Markham
 twitter: minamarkham
 years: 2011, 2012, 2013, 2014
-
 ---
 
 I first met Dan and Cherrie when I attended Front End Design Conference in 2011. I was new to the tech community and wasn't sure if I belonged there. That feeling lasted for about an hour. I met some of the best, warmest people I know that weekend, many of whom I still consider friends. I only wish I had heard about it sooner.
