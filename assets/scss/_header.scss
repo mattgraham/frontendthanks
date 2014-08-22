@@ -58,7 +58,7 @@ header {
     }
   }
 
-  .portland {
+  .button {
     text-decoration: none;
     position: absolute;
     top: 10px;
@@ -82,7 +82,7 @@ header {
 
     &:hover a {
       color: #b52126;
-      background: rgba(#fff, .9);
+      background: rgba(#fff, .85);
       box-shadow: 0 1px 0 2px rgba(#000, .1);
     }
   }
@@ -112,7 +112,7 @@ header {
         display: block;
       }
 
-      .portland {
+      .button {
         position: relative;
         max-width: 100%;
         top: auto;
