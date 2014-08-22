@@ -52,6 +52,6 @@ Dan and Cherrie took finding the right speakers very seriously. We've had some i
   <li>Travis Miller - 2014 (St. Pete)</li>
   <li>Andrew Norcross - 2014 (St. Pete)</li>
   <li>Noah Stokes - 2014 (St. Pete)</li>
-  <li>Mina Markham - 2014 (St. Pete)</li>
+  <li>Mina Markham - 2013, 2014 (St. Pete)</li>
   <li>Jason Beaird - 2014 (St. Pete)</li>
 </div>
