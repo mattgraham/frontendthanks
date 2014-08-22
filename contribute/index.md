@@ -13,7 +13,7 @@ The site has been built in Jekyll and hosted via GitHub Pages, this makes it eas
 
 Inside the ```_thanks``` folder you'll find a listing of markdown (.md) files, your job is to add to those. Start with the date your adding it then your name ```2014-09-20-Your-Name.md```
 
-Copy and pase the template bellow here: [Add Page](https://github.com/mattgraham/frontendthanks/new/master/_thanks)
+Copy and pase the template bellow here: [Add Page](https://github.com/mattgraham/frontendthanks/new/gh-pages/_thanks)
 
 <pre>
 ---
@@ -37,7 +37,7 @@ etc.
 
 Real similiar for the photos; inside the ```_photos``` folder you'll find a listing of markdown (.md) files. The photos are not necessarly hosted here, they can be via instagram, your website, dribbble, etc. You just let us know the details in the markdown file and we'll display the image with the correct photo credit.  
 
-Copy and pase the template bellow here: [Add Photo](https://github.com/mattgraham/frontendthanks/new/master/_photos)
+Copy and pase the template bellow here: [Add Photo](https://github.com/mattgraham/frontendthanks/new/gh-pages/_photos)
 
 <pre>
 ---
