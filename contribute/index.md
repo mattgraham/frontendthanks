@@ -8,6 +8,8 @@ The goal of this site is to thank Dan and Cherrie for the incredible work and co
 
 The site has been built in Jekyll and hosted via GitHub Pages, this makes it easy for you to quickly add to the site. *Note* This will create a pull-request that will be sent to us for approval. If you really don't want to use GitHub to make this happen, [create an issue](https://github.com/mattgraham/frontendthanks/issues/new) and I'll add the message/photo for you. Message me on twitter if you have questions [@michigangraham](http://twitter.com/michigangraham)
 
+Crazy thanks to [Ben Callahan](http://twitter.com/bencallahan), [Chris Coyier](http://twitter.com/chriscoyier), [Anthony Garand](http://twitter.com/garand) and all of you who submitted thanks for helping make this site happen! 
+
 
 ## Adding Thank You Messages
 
