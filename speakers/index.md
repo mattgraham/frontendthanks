@@ -30,7 +30,7 @@ Dan and Cherrie took finding the right speakers very seriously. We've had some i
   <li>Brandon Jones - 2011</li>
   <li>Allison House - 2011</li>
   <li>Jason Vanlue - 2012, 2014 (PDX)</li>
-  <li>Darcey Clarke - 2012</li>
+  <li>Darcy Clarke - 2012</li>
   <li>Giovanni DiFeterici - 2012</li>
   <li>Bermon Painter - 2012, 2014 (PDX)</li>
   <li>Carl Smith - 2012, 2014 (St. Pete)</li>
