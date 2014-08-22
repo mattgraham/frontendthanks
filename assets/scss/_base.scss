@@ -66,6 +66,32 @@ body {
     max-width: 700px;
     padding: 0 20px;
     margin: 0 auto;
+
+    img {
+      border-radius: $border-radius;
+      margin: 20px 0;
+      max-width: 100%;
+    }
+
+    button.buy {
+      width: 100%;
+      background: $color-red;
+      padding: 20px;
+      border-radius: $border-radius;
+      border: none;
+      color: #fff;
+      margin: 10px 0;
+      transition: background .1s ease-in;
+      border: 1px solid $color-red;
+
+      &:hover {
+        background: lighten($color-red, 15%);
+      }
+    }
+  }
+
+  .top {
+    margin-top: 120px;
   }
 
   .sticky-wrapper {

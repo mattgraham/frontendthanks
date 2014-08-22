@@ -13,6 +13,7 @@ layout: home
 {% include search.html %}
 
 <ul class="content">
+
   {% for thanks in site.thanks %}
     <li id="{{ thanks.name | replace:' ' | truncatewords: 1 | remove:'...' }}" class="anchor">
       <span class="thanks">
