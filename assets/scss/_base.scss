@@ -88,6 +88,13 @@ body {
         background: lighten($color-red, 15%);
       }
     }
+
+    .speakers {
+      li:first-child {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
   }
 
   .top {
@@ -99,7 +106,7 @@ body {
   }
 
   .search {
-    background: #fff;
+    background: rgba(#fff, .96);
     box-shadow: 0 0 0 1px #DCDCDC, 0 1px 5px rgba(#000, .1);
     padding: 20px 0;
     width: 100%;
@@ -171,7 +178,7 @@ body {
         display: block;
 
         a {
-          color: #C3C3C3;
+          color: #999;
           display: block;
 
           &:hover {
