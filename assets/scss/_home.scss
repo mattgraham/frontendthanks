@@ -8,13 +8,30 @@
     padding: 60px 20px;
     margin-top: none;
 
-    h1, p {
+    h1, h3, p {
+      font-family: $sans;
       color: #fff;
     }
 
     h1 {
+      text-align: center;
       margin: 0;
-      margin-bottom: 20px !important;
+      padding: 0;
+      margin-bottom: 0px !important;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    hr {
+      box-shadow: none;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border: none;
+      border-bottom: 1px solid rgba(#fff, .1);
     }
 
     p {
